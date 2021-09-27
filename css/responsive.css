@@ -1,0 +1,78 @@
+/*---------------------
+    header section
+----------------------*/
+@media(max-width: 992px){
+	.text-box h1 {
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 768px){
+	.text-box h1{
+	    font-size: 57px;
+    }
+    .nav-links ul li{
+		display: block;
+		text-align: left;
+    }
+    .nav-links{
+    	position: fixed;
+    	background: #f44336;
+    	height: 100vh;
+    	width: 200px;
+    	top: 0;
+    	right: -200px;
+       	text-align: left;
+       	z-index: 2;
+       	transition: .8s;
+    }
+    .fas{
+	   display: block;
+	   color: #fff;
+	   font-size: 22px;
+	   margin: 10px;
+	   cursor: pointer;
+    }
+    .nav-links ul{
+    	padding: 30px;
+    }
+}
+
+@media(max-width: 575px){
+	.text-box h1{
+	    font-size: 20px;
+    }
+    .hero-btn{
+    	padding: 10px 20px	;
+    }
+}
+
+/*---------------------
+    Courses section
+----------------------*/
+@media(max-width: 768px){
+	.row{
+		flex-direction: column;
+	}
+}
+
+/*---------------------
+  Testimonial section
+----------------------*/
+
+@media(max-width: 768px){
+	.testi-col img{
+		margin-left: 0px;
+		margin-right: 15px;
+	}
+}
+
+/*---------------------
+     Blog section
+----------------------*/
+
+@media(max-width: 768px){
+	.sub-header h1{
+		font-size: 24px;
+	}
+}
